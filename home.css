@@ -1,0 +1,94 @@
+*{
+    padding: 0;
+    margin:0;
+}
+
+body{
+    background-color:rgb(0, 0, 0);
+   color: white;
+}
+
+#tittlebar{
+   color: white;
+   text-align: center;
+   margin :5%;
+  height: auto;
+  width: auto;
+  border: 5px solid rgb(64, 191, 9);
+  padding: 25px;
+  border-radius: 25px;
+  background-color: rgb(0, 0, 0);
+}
+#tittle{
+    color: rgb(243, 249, 249);
+  
+  
+}
+#subtittle{
+    color: rgb(243, 249, 249);
+}
+
+/**************************/
+#body1{
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    
+    align-items:center;
+   /* justify-content:center;*/
+   height:50vh;
+    margin:0;
+    
+    
+    }
+    
+
+
+
+
+.card{margin: auto;
+  
+    width:400px;
+    border: 2px solid   rgb(64, 191, 9);;
+    border-radius: 12px ; 
+    box-shadow: 0  5px 5px   rgb(64, 191, 9);
+
+transition:transform 0.3s;
+background-color: rgb(0, 0, 0);
+text-align: center;
+height: auto;
+}
+
+.card:hover{
+    transform: scale(1.05);
+  }
+
+
+
+  .card-title{
+
+    font-size: 1.4em;
+    margin-bottom: 10px;
+    color:#e2c2c2;
+    padding-top: 15px ;
+   
+
+}
+.card-description{
+
+color: #d2c4c4;
+line-height: 1.4;
+padding: 5px;
+text-align: center;
+padding-bottom: 10px;
+
+}
+#a{
+   color: rgb(33, 218, 218); 
+   text-decoration: none;
+ 
+}
+.cardlink{
+    margin-bottom: 6px;
+}
